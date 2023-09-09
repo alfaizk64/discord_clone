@@ -8,7 +8,8 @@ module.exports = {
       },
       fontFamily: {
         'ggsans': ['ggsans-normal'],
-        
+        'open-sans': ['Open Sans'], 
+
       },
       spacing: {
         '30' : '120px'
