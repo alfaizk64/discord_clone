@@ -11,14 +11,14 @@
 <body class="m-0 p-0 box-border">
     <!-- Navbar -->
     <section class="w-full bg-[#404EED] relative overflow-x-hidden">
-        <header class="mx-auto w-11/12 max-w-[1190px] py-4 ">
+        <header class="mx-auto w-11/12 relative z-40 max-w-[1190px] py-4 ">
              <div class="header flex flex-row justify-between items-center ">
                 <!-- logo image -->
                 <div class="img">
                     <a href="#"><img src="assets/Images/logo.svg" alt=""></a>
                 </div>
                 <!-- nav bar -->
-                <div class="nav_bar">
+                <div class="nav_bar max-[768px]:hidden">
                     <nav >
                         <ul class="flex text-white gap-x-8 font-semibold text-base font-open-sans">
                             <li class="hover:underline"><a href="#">Download</a></li>
@@ -37,11 +37,11 @@
              </div>
         </header>
         <!-- hero section -->
-        <section class="hero_section text-center py-30 text-white max-w-[800px] mx-auto flex flex-col gap-y-8">
+        <section class="hero_section text-center py-30 max-[768px]:py-14 text-white max-w-[800px] max-[768px]:px-6 mx-auto flex flex-col gap-y-8">
             <!-- content text -->
-            <div class="flex flex-col gap-y-8 pl-12">
-                <h1 class="text-7xl  text-white leading-[45px] font-black"> IMAGINE A PLACE...</h1>
-            <p class="text-lg mt-6  text-center">
+            <div class="flex flex-col gap-y-8 pl-12 max-[768px]:pl-0">
+                <h1 class="text-7xl max-[768px]:text-4xl max-[768px]:text-left  text-white leading-[45px] font-black"> IMAGINE A PLACE...</h1>
+            <p class="text-lg mt-6 max-[768px]:text-left max-[768px]:mt-1 text-center">
                 ...where you can belong to a school club, a gaming group, or a
             worldwide art community. Where just you and a handful of friends can
             spend time together. A place that makes it easy to talk every day
@@ -49,7 +49,7 @@
             </p>
             </div>
             <!-- download and open discord button -->
-            <div class="btn_group flex flex-wrap items-center justify-center gap-x-2 font-open-sans text-xl font-thin z-20 pb-11">
+            <div class="btn_group flex flex-wrap items-center justify-center max-[768px]:gap-y-4 gap-x-2 font-open-sans text-xl font-thin z-20 pb-11">
             
                
                 <a class="py-4 px-8 hover:drop-shadow-xl hover:shadow-[0 8px 15px rgba(0,0,0,.2)] bg-white rounded-full mr-6 text-[#23272a] hover:text-[#404EED] transition-all duration-200" href="#"> <i class="fa-solid fa-download  mr-2"></i> Download for Windows</a>
@@ -58,67 +58,67 @@
             </div>
         </section>
         <!-- images  -->
-        <img src="assets/Images/Image0.svg"  class="absolute bottom-[141px] scale-[1.75]  " alt="">
-        <img src="assets/Images/Image1.svg"  class="absolute bottom-0 left-2/4 ml-[370px] " alt="">
-        <img src="assets/Images/Image2.svg"  class="absolute bottom-0 right-2/4 mr-[360px]">
+        <img src="assets/Images/Image0.svg"  class="absolute max-[768px]:hidden bottom-[141px] scale-[1.75]  " alt="">
+        <img src="assets/Images/Image1.svg"  class="absolute max-[768px]:hidden bottom-0 left-2/4 ml-[370px] " alt="">
+        <img src="assets/Images/Image2.svg"  class="absolute bottom-0 max-[768px]:relative max-[768px]:right-[75px] right-2/4 mr-[360px]">
     </section>
    <!-- section 2 -->
-   <section class="w-full relative py-30">
+   <section class="w-full relative max-[768px]:py-20 py-30">
      <div class="w-11/12 max-w-[1200px] mx-auto">
-         <div class="flex gap-x-20 items-center justify-between">
+         <div class="flex max-[768px]:px-4 max-[768px]:flex-col gap-x-20 items-center justify-between">
 
-             <div class="left w-[60%]">
+             <div class="left max-[768px]:w-full w-[60%]">
                 <img src="assets/Images/section1Image.svg" loading="lazy" class="w-full" alt="">
              </div>
-             <div class="right w-[40%]">
-                <h2 class="font-open-sans font-extrabold leading-[120%] text-5xl">Create an invite-only place where you belong</h2>
-                <p class="mt-6 text-xl leading-8 font-thin font-open-sans max-w-[418px]">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+             <div class="right max-[768px]:w-full w-[40%]">
+                <h2 class="font-open-sans font-extrabold leading-[120%] max-[768px]:text-xl text-5xl">Create an invite-only place where you belong</h2>
+                <p class="mt-6 max-[768px]:text-base  text-xl leading-8 font-thin font-open-sans max-w-[418px]">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
              </div>
         </div>  
      </div>
 
    </section>
    <!-- section 3 -->
-   <section class="w-full relative py-30 bg-[#F6F6F6] ">
+   <section class="w-full max-[768px]:py-20 relative py-30 bg-[#F6F6F6] ">
     <div class="w-11/12 max-w-[1200px] mx-auto">
-        <div class="flex gap-x-20 items-center justify-between">
+        <div class="flex max-[768px]:px-4 max-[768px]:flex-col gap-x-20 items-center justify-between">
 
-            <div class="left w-[60%] order-2 ">
+            <div class="left max-[768px]:w-full w-[60%]  order-2 ">
                <img src="assets/Images/section2Image.svg" loading="lazy" class="w-full" alt="">
             </div>
-            <div class="right w-[40%]">
-               <h2 class="font-open-sans font-extrabold leading-[120%] text-5xl">Where hanging out is easy</h2>
-               <p class="mt-6 text-xl leading-8 font-thin font-open-sans max-w-[418px]">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+            <div class="right max-[768px]:w-full w-[40%] max-[768px]:order-4">
+               <h2 class="font-open-sans font-extrabold leading-[120%] max-[768px]:text-xl text-5xl">Where hanging out is easy</h2>
+               <p class="mt-6 max-[768px]:text-base text-xl leading-8 font-thin font-open-sans max-w-[418px]">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
             </div>
        </div>  
     </div>
 
   </section>
   <!-- section 4 -->
-  <section class="w-full relative py-30">
+  <section class="w-full max-[768px]:py-20 relative py-30">
     <div class="w-11/12 max-w-[1200px] mx-auto">
-        <div class="flex gap-x-20 items-center justify-between">
+        <div class="flex max-[768px]:px-4 max-[768px]:flex-col gap-x-20 items-center justify-between">
 
-            <div class="left w-[60%]">
+            <div class="left max-[768px]:w-full w-[60%]">
                <img src="assets/Images/section3Image.svg" loading="lazy" class="w-full" alt="">
             </div>
-            <div class="right w-[40%]">
-               <h2 class="font-open-sans font-extrabold leading-[120%] text-5xl">From few to a fandom</h2>
-               <p class="mt-6 text-xl leading-8 font-thin font-open-sans max-w-[418px]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            <div class="right max-[768px]:w-full w-[40%]">
+               <h2 class="font-open-sans font-extrabold leading-[120%] max-[768px]:text-xl text-5xl">From few to a fandom</h2>
+               <p class="mt-6 max-[768px]:text-base text-xl leading-8 font-thin font-open-sans max-w-[418px]">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
             </div>
        </div>  
     </div>
 
   </section>
 
-  <!-- section4 -->
-  <section class="relative w-full py-30 bg-[#F6F6F6]">
+  <!-- section5 -->
+  <section class="relative w-full max-[768px]:py-20 py-30 bg-[#F6F6F6]">
       <div class="w-11/12 max-w-[1200px] mx-auto ">
         <!-- section 4 content heading para -->
         <div class="max-w-[900px] mx-auto text-center">
 
-            <h2 class="font-extrabold text-[48px] text-[#23272A] leading-[95%]">RELIABLE TECH FOR STAYING CLOSE</h2>
-            <p class="mt-6  text-lg leading-[2] font-open-sans">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+            <h2 class="font-extrabold max-[768px]:text-2xl text-[48px] text-[#23272A] leading-[95%]">RELIABLE TECH FOR STAYING CLOSE</h2>
+            <p class="mt-6 max-[768px]:text-base max-[768px]:text-left text-lg leading-[2] font-open-sans">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
         </div>
         <!-- section 4 image-->
         <div class="img pb-16 ">
@@ -128,7 +128,7 @@
         <!-- ready to start section -->
         <div class="w-full flex flex-col justify-center items-center max-w-[600px] mx-auto">
             <img src="assets/Images/section5Image.svg" alt="">
-            <h2 class="font-bold text-[32px] leading-[57%] font-open-sans">Ready to start your journey?</h2>
+            <h2 class="font-bold max-[768px]:text-xl text-[32px] leading-[57%] font-open-sans">Ready to start your journey?</h2>
             <a class="py-4 inline-block px-8 mt-10 hover:drop-shadow-xl hover:shadow-[0 8px 15px rgba(0,0,0,.2)] bg-[#5865f2] rounded-full  text-white hover:bg-[hsl(235,86.1%,71.8%)] transition-all duration-200" href="#"> <i class="fa-solid fa-download  mr-2"></i> Download for Windows</a>
         </div>
       </div>
@@ -136,10 +136,11 @@
 
   <!-- footer section -->
   <footer class="pt-20 w-full pb-16 bg-[#23272A]">
+    <!-- footer first section -->
     <div class="w-11/12 max-w-[1200px] mx-auto">
-            <div class="flex items-start gap-x-30 ">
+            <div class="flex flex-wrap items-start pb-16 max-[768px]:gap-y-8 gap-x-30 ">
                 <!-- left side -->
-                <div class="left w-[25%] flex gap-8  flex-col">
+                <div class="left w-[25%] max-[768px]:w-full flex gap-8  flex-col">
                     <div class="flex gap-3 text-white items-center">
                         <img src="assets/Images/India.png" class="w-6" alt="">
                         <p>English,India</p>
@@ -156,7 +157,7 @@
                     </div>
                 </div>
                 <!-- right -->
-            <div class="right flex flex-row w-[60%] justify-between flex-wrap">
+            <div class="right flex flex-row w-[60%] max-[768px]:justify-between justify-between flex-wrap max-[768px]:gap-y-6">
                     <!-- column 1 -->
                 <div class="flex text-white gap-y-3 flex-wrap flex-col text-base leading-6">
                         <h5 class="text-[#5865f2] mb-2">Product</h5>
@@ -200,7 +201,22 @@
                 </div>
            </div>
         </div>
+        <!-- footer second section -->
+           <div class="pt-0  border-t-2 border-[#5865f2] ">
+            <div class="mb-8"></div>
+            <div class="flex flex-wrap justify-between">
+
+                <a href="#"> 
+                    
+                    <img src="assets/Images/logo.svg" alt="">
+                </a> 
+                <a class="py-2 px-4 rounded-[40px] text-sm bg-[#5865f2] text-white" href="#">Sign up</a>
+            </div>
+           </div>           
     </div>
+
+
+    
   </footer>
 </body>
 </html>
